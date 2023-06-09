@@ -1,4 +1,14 @@
 
+let tablero = document.getElementsByClassName("game");
+
+function myFunction() {
+    var tablero = document.getElementsByClassName('game');
+    if (tablero.style.display === 'none') {
+        tablero.style.display = 'block';
+    } else {
+        tablero.style.display = 'none';
+    }
+}
 
 
 
